@@ -1,0 +1,8 @@
+tmp
+DEBS
+debian/*
+!debian/source
+!debian/changelog
+!debian/copyright
+!debian/dde-deb-fix.install
+!debian/rules
