@@ -1,3 +1,18 @@
 #!/usr/bin/make -f
+
+PREFIX = $(CURDIR)/debian/deepin-deb-fix
+
 %:
 	dh $@
+
+override_dh_installsystemd:
+	dh_installsystemd --no-start
+	
+override_dh_auto_install:
+	dh_auto_install
+
+	mkdir -p  $(PREFIX)/etc/profile.d
+
+	cp -f misc/profile.d/* $(PREFIX)/etc/profile.d/
+	cp -rf $(CURDIR)/$(DEB_HOST_ARCH)/opt $(PREFIX)/
+	cp -rf $(CURDIR)/$(DEB_HOST_ARCH)/usr $(PREFIX)/

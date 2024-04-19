@@ -5,7 +5,7 @@ arch=$(dpkg --print-architecture)
 apt_cache_path=/var/lib/apt/lists/com-store-packages.uniontech.com_appstorev23_dists_beige_appstore_binary-${arch}_Packages
 
 if [ ! -f "${apt_cache_path}" ]; then
-    echo "apt缓存文件未找到, 退出"
+    echo "APT cache file not found, exiting"
     exit 1
 fi
 
@@ -13,8 +13,8 @@ pwd_dir=$(pwd)
 cache_dir=${pwd_dir}/DEBS     # deb包下载目录
 extract_dir=${pwd_dir}/tmp    # deb包解压目录
 IFS=$'\n'  # 设置分隔符为换行符
-fix_application_dir=/usr/share/deepin-desktop-fix/applications/ # 修补包desktop文件目录
-fix_app_file_dir=/opt/deepin-apps-fix/ # 修补包文件目录
+fix_application_dir=/${arch}/usr/share/deepin-desktop-fix/applications/ # 修补包desktop文件目录
+fix_app_file_dir=/${arch}/opt/deepin-apps-fix/ # 修补包文件目录
 
 mkdir -p $cache_dir
 mkdir -p $extract_dir
@@ -55,9 +55,9 @@ check_desktop() {
     done < "$source_desktop_path"
     if [ $fix_desktop -eq 0 ]; then
         rm -f "$output_desktop_path"
-        echo -e "\e[32m[符合规范]\e[0m"
+        echo -e "\e[32m[Check passed]\e[0m"
     else
-        echo -e "\e[31m[不符合规范，已修改]\e[0m"
+        echo -e "\e[31m[Checked for issues, modified]\e[0m"
     fi
 }
 
@@ -67,12 +67,12 @@ check_deb () {
     count=0
     awk '/^Package:/ {print $2}' ${apt_cache_path} | while read -r package_name; do
         count=$((count+1))
-        echo "[${count}/${total}]处理: ${package_name}"
+        echo "[${count}/${total}]scanning: ${package_name}"
         apt download -d $package_name
         deb_file=$(find . -maxdepth 1 -type f -name "${package_name}*.deb" -print -quit)
         dpkg-deb -x "${deb_file}" "${extract_dir}" 1>/dev/null
         if [ $? -ne 0 ]; then
-            echo -e "\e[31m[解压失败，跳过]\e[0m"
+            echo -e "\e[31m[unzip error, skip]\e[0m"
             rm -rf ${extract_dir}/*
             rm -rf ${deb_file}
             continue
