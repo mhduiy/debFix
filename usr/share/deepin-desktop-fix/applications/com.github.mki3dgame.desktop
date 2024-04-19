@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Game;
+Comment=mki3dgame
+Exec=/opt/deepin-apps-fix/com.github.mki3dgame/files/bin/mki3dgame.sh
+GenericName=mki3dgame
+Icon=com.github.mki3dgame
+Name=mki3dgame
+StartupNotify=true
+TryExec=deepin-calculator
+Type=Application

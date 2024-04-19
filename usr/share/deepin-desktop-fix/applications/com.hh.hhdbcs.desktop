@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Development
+Comment=db mangers
+Exec=/opt/deepin-apps-fix/com.hh.hhdbcs/files/start_hhdbcs.sh
+Icon=/opt/apps/com.hh.hhdbcs/entries/icons/hicolor/scalable/apps/hhdbcs.png
+Name=hhdbcs
+Name[zh_CN]=恒辉通用数据库管理桌面软件
+Terminal=false
+Type=Application
+StartupNotify=true

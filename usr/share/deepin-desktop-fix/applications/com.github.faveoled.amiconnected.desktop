@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Am I connected?
+Exec=/opt/deepin-apps-fix/com.github.faveoled.amiconnected/files/bin/com.github.faveoled.amiconnected.sh
+Terminal=false
+Icon=com.github.faveoled.amiconnected
+Type=Application
+Categories=Network;WebBrowser;

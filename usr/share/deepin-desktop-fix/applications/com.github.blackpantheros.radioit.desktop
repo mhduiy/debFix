@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Radio It
+Version=1.0
+Comment=Automation software for Radios.
+Comment[es]=Automatizador para emisoras de radio.
+Comment[hu]=Adásvezérlő szoftver rádiókhoz
+GenericName=Radio It
+GenericName[es]=Radio Automatizador
+GenericName[hu]=Rádió Adásvezérlő
+Exec=/opt/deepin-apps-fix/com.github.blackpantheros.radioit/files/squashfs-root/AppRun %U
+Icon=/opt/apps/com.github.blackpantheros.radioit/entries/icons/com.github.blackpantheros.radioit.svg
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=AudioVideo;Player;Music;Qt;

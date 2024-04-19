@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=SeptnetOMR
+Name[zh_CN]=七天答卷扫描工具
+Comment=Septnet Paper Scanner Tool
+Comment[zh_CN]=七天网络答卷扫描工具
+Exec=/opt/deepin-apps-fix/cc.7net.septnetomr/files/bin/SeptnetOMR.sh
+Icon=cc.7net.septnetomr
+Categories=Development
+Type=Application

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=4K Stogram
+GenericName=4K Stogram
+Comment=View instagram photos
+Exec=/opt/deepin-apps-fix/com.4kdownload.4kstogram/files/lib/4kstogram/4kstogram.sh
+Terminal=false
+Type=Application
+Icon=4kstogram.png
+Categories=Network;Qt;

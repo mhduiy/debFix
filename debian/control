@@ -1,4 +1,4 @@
-Source: dde-deb-fix
+Source: deepin-deb-fix
 Section: x11
 Priority: optional
 Maintainer: Deepin Packages Builder <packages@deepin.com>
@@ -6,7 +6,7 @@ Build-Depends: debhelper-compat (= 13),
 Standards-Version: 1.0.0
 Homepage: http://www.deepin.org/
 
-Package: dde-deb-fix
-Architecture: any
+Package: deepin-deb-fix
+Architecture: amd64
 Depends:
 Description: deepin fix some packages without shebang in startup script

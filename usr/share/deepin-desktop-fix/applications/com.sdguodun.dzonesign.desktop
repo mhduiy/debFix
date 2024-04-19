@@ -1,0 +1,23 @@
+[Desktop Entry]
+Categories=Office;Qt;
+Comment=dzonesign
+Comment[zh_CN]=大众签章
+Exec=/opt/deepin-apps-fix/com.sdguodun.dzonesign/files/DZoneSign
+GenericName=dzonesign
+GenericName[zh_CN]=大众签章
+Icon=/opt/apps/com.sdguodun.dzonesign/files/icons/APP.ico
+InitialPreference=3
+MimeType=application/pdf
+Name=dzonesign
+Name[zh_CN]=大众签章
+StartupNotify=false
+StartupWMClass=wpspdf
+Terminal=false
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-Deepin-AppID=com.sdguodun.dzonesign
+X-Deepin-CreatedBy=com.deepin.dde.daemon.Launcher
+X-Deepin-Vendor=user-custom
+X-KDE-SubstituteUID=false
+X-KDE-Username=

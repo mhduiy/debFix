@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=Office;
+Comment=EdrawMax
+Encoding=UTF-8
+MimeType=application/x-eddx
+Exec=/opt/deepin-apps-fix/cn.edrawsoft.edrawmax/files/edrawmax.sh %U
+Icon=/opt/apps/cn.edrawsoft.edrawmax/entries/icons/hicolor/48x48/apps/edrawmax.png
+Name=EdrawMax
+StartupNotify=false
+Terminal=false
+TryExec=/opt/apps/cn.edrawsoft.edrawmax/files/edrawmax.sh
+Type=Application
+X-Deepin-Vendor=EdrawSoft
+Name[en_US]=EdrawMax
+Name[zh_CN]=亿图图示

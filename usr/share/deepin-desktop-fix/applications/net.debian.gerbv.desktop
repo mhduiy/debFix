@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Gerbv Gerber File Viewer
+Name[ru]= Gerbv — просмотр Gerber-файлов
+GenericName=Gerber File Viewer
+GenericName[ru]=Просмотр Gerber-файлов
+Comment=Gerber file viewer for PCB design
+Comment[ru]=Просмотр Gerber-файлов конструкции печатных плат
+Type=Application
+Exec=/opt/deepin-apps-fix/net.debian.gerbv/files/bin/gerbv.sh %F
+Icon=gerbv
+MimeType=application/x-gerber;application/x-excellon;
+Categories=Development;Engineering;Electronics;
+Keywords=Gerber;PCB

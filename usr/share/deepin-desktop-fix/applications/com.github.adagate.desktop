@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Game;
+Comment=AdaGate
+Exec=/opt/deepin-apps-fix/com.github.adagate/files/bin/adagate.sh
+GenericName=AdaGate
+Icon=com.github.adagate
+Name=AdaGate
+StartupNotify=true
+TryExec=deepin-calculator
+Type=Application
+X-Deepin-ManualID=deepin-calculator
+X-Deepin-Vendor=deepin
+X-Deepin-TurboType=dtkwidget

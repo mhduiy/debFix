@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=yapbam
+Exec=/opt/deepin-apps-fix/net.yapbam.yapbam/files/bin/yapbam.sh
+Icon=yapbam
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Application;

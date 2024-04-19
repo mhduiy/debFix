@@ -1,5 +1,5 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: dde-deb-fix
+Upstream-Name: deepin-deb-fix
 
 Files: *
 Copyright: 2015 Deepin Technology Co., Ltd.

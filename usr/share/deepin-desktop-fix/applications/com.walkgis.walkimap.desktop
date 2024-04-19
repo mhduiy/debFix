@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Development;Qt
+Comment=WalkGIS - WalkOSMap
+Exec=/opt/deepin-apps-fix/com.walkgis.walkimap/files/bin/WalkOSMap.sh %U
+GenericName=WalkIMap
+Icon=/opt/apps/com.walkgis.walkimap/entries/icons/hicolor/256x256/apps/com.walkgis.walkimap.png
+Name=com.walkgis.walkimap
+Name[zh_CN]=数维信息化测绘软件
+Terminal=false
+TryExec=/opt/apps/com.walkgis.walkimap/files/bin/WalkOSMap.sh
+Type=Application
+X-Deepin-Vendor=user-custom

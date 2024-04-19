@@ -1,0 +1,10 @@
+# Forwarded to http://sf.net/support/tracker.php?aid=2672143
+[Desktop Entry]
+Type=Application
+Name=Gravitation
+Comment=games
+Icon=/opt/apps/net.sourceforge.hcsoftware.gravitation/entries/icons/gravitation.png
+Exec=/opt/deepin-apps-fix/net.sourceforge.hcsoftware.gravitation/files/bin/gravitation
+Terminal=false
+Categories=Game;AdventureGame;
+Keywords=art;game;mania;melancholia;creativity;

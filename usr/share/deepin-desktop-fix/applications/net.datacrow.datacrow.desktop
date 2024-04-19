@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=datacrow
+Exec=/opt/deepin-apps-fix/net.datacrow.datacrow/files/bin/start.sh
+Icon=datacrow
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Application;

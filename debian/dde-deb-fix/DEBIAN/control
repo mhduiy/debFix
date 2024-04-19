@@ -1,9 +1,0 @@
-Package: dde-deb-fix
-Version: 1.0.0
-Architecture: amd64
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Installed-Size: 16
-Section: x11
-Priority: optional
-Homepage: http://www.deepin.org/
-Description: deepin fix some packages without shebang in startup script

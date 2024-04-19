@@ -1,0 +1,10 @@
+#!/bin/bash
+#!/usr/bin/gjs
+imports.package.init({
+  name: "com.github.johnfactotum.Foliate",
+  version: "2.6.4",
+  prefix: "/usr",
+  libdir: "/usr/lib/x86_64-linux-gnu",
+  datadir: "/usr/share",
+});
+imports.package.run(imports.main);

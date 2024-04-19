@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=AudioVideo;Audio;AudioVideoEditing;
+Comment=详情
+Exec=/opt/deepin-apps-fix/com.synthesizerv/files/synthv.sh %f
+Icon=synthv
+Type=Application
+MimeType=application/tup;
+Name=SV
+Terminal=false
+Type=Application
+X-Deepin-Vendor=user-custom
