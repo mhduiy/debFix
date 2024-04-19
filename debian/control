@@ -7,6 +7,6 @@ Standards-Version: 1.0.0
 Homepage: http://www.deepin.org/
 
 Package: deepin-deb-fix
-Architecture: amd64
+Architecture: any
 Depends:
 Description: deepin fix some packages without shebang in startup script
