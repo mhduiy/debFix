@@ -7,3 +7,4 @@ Exec=/opt/deepin-apps-fix/cc.7net.septnetomr/files/bin/SeptnetOMR.sh
 Icon=cc.7net.septnetomr
 Categories=Development
 Type=Application
+TryExec=/opt/apps/cc.7net.septnetomr/files/bin/SeptnetOMR

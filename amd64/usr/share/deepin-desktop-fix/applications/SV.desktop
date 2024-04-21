@@ -9,3 +9,4 @@ Name=SV
 Terminal=false
 Type=Application
 X-Deepin-Vendor=user-custom
+TryExec=/opt/apps/com.synthesizerv/info

@@ -1,0 +1,9 @@
+#!/usr/bin/gjs
+imports.package.init({
+  name: "com.github.johnfactotum.Foliate",
+  version: "2.6.3",
+  prefix: "/opt/apps/com.github.johnfactotum.foliate/files/usr/",
+  libdir: "/usr/lib/x86_64-linux-gnu",
+  datadir: "/opt/apps/com.github.johnfactotum.foliate/files/usr/share",
+});
+imports.package.run(imports.main);

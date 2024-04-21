@@ -7,6 +7,6 @@ Icon=/opt/apps/com.walkgis.walkimap/entries/icons/hicolor/256x256/apps/com.walkg
 Name=com.walkgis.walkimap
 Name[zh_CN]=数维信息化测绘软件
 Terminal=false
-TryExec=/opt/apps/com.walkgis.walkimap/files/bin/WalkOSMap.sh
 Type=Application
 X-Deepin-Vendor=user-custom
+TryExec=/opt/apps/com.walkgis.walkimap/info

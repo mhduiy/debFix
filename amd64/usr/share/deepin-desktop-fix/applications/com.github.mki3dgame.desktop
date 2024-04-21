@@ -6,5 +6,5 @@ GenericName=mki3dgame
 Icon=com.github.mki3dgame
 Name=mki3dgame
 StartupNotify=true
-TryExec=deepin-calculator
 Type=Application
+TryExec=/opt/apps/com.github.mki3dgame/info

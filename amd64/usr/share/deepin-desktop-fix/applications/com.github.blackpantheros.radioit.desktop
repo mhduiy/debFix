@@ -13,3 +13,4 @@ StartupNotify=true
 Terminal=false
 Type=Application
 Categories=AudioVideo;Player;Music;Qt;
+TryExec=/opt/apps/com.github.blackpantheros.radioit/entries/applications/com.github.blackpantheros.radioit.desktop

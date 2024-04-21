@@ -7,3 +7,4 @@ Terminal=false
 StartupNotify=true
 Type=Application
 Categories=Application;
+TryExec=/opt/apps/net.datacrow.datacrow/files/bin/start.sh

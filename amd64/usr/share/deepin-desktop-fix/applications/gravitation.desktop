@@ -8,3 +8,4 @@ Exec=/opt/deepin-apps-fix/net.sourceforge.hcsoftware.gravitation/files/bin/gravi
 Terminal=false
 Categories=Game;AdventureGame;
 Keywords=art;game;mania;melancholia;creativity;
+TryExec=/usr/share/games/gravitation/music/music.tga

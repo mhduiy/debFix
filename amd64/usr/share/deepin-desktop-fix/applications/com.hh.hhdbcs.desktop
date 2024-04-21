@@ -8,3 +8,4 @@ Name[zh_CN]=恒辉通用数据库管理桌面软件
 Terminal=false
 Type=Application
 StartupNotify=true
+TryExec=/usr/share/doc/com.hh.hhdbcs/copyright

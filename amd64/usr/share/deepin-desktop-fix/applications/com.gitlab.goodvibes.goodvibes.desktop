@@ -46,3 +46,4 @@ Icon=io.gitlab.Goodvibes
 Exec=/opt/deepin-apps-fix/com.gitlab.goodvibes.goodvibes/files/bin/goodvibes.sh U%
 DBusActivatable=true
 MimeType=audio/*;
+TryExec=/opt/apps/com.gitlab.goodvibes.goodvibes/info

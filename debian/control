@@ -9,4 +9,5 @@ Homepage: http://www.deepin.org/
 Package: deepin-deb-fix
 Architecture: any
 Depends:
-Description: deepin fix some packages without shebang in startup script
+Description: Deepin deb fix
+ Fix some packages without shebang in startup script

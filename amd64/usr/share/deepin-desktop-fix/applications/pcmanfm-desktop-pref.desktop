@@ -104,3 +104,4 @@ Exec=/opt/deepin-apps-fix/org.archlinux.pcmanfm/files/bin/pcmanfm.sh --desktop-p
 StartupNotify=true
 Terminal=false
 NotShowIn=GNOME;XFCE;KDE;MATE;
+TryExec=/opt/apps/org.archlinux.pcmanfm/files/bin/pcmanfm.sh

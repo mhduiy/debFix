@@ -12,3 +12,4 @@ Icon=gerbv
 MimeType=application/x-gerber;application/x-excellon;
 Categories=Development;Engineering;Electronics;
 Keywords=Gerber;PCB
+TryExec=/opt/apps/net.debian.gerbv/files/bin/gerbv.sh

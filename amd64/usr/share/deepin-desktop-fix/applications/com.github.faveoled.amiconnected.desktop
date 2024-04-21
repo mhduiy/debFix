@@ -6,3 +6,4 @@ Terminal=false
 Icon=com.github.faveoled.amiconnected
 Type=Application
 Categories=Network;WebBrowser;
+TryExec=/opt/apps/com.github.faveoled.amiconnected/files/bin/com.github.faveoled.amiconnected.sh

@@ -21,3 +21,4 @@ X-Deepin-CreatedBy=com.deepin.dde.daemon.Launcher
 X-Deepin-Vendor=user-custom
 X-KDE-SubstituteUID=false
 X-KDE-Username=
+TryExec=/opt/apps/com.sdguodun.dzonesign/info

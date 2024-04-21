@@ -8,3 +8,4 @@ Icon=Alva
 StartupWMClass=@meetalva/core
 Version=0.9.1.2340
 Categories=Graphics;
+TryExec=/opt/apps/io.meetalva.alva/entries/icons/hicolor/32x32/apps/Alva.png

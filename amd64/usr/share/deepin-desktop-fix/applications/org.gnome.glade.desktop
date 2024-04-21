@@ -288,3 +288,4 @@ X-GNOME-Bugzilla-Bugzilla=GNOME
 X-GNOME-Bugzilla-Product=glade
 X-GNOME-Bugzilla-Version=3.22.1
 X-GNOME-Bugzilla-Component=general
+TryExec=/opt/apps/org.gnome.glade/files/lib/libgladeui-2.so.12.0.0

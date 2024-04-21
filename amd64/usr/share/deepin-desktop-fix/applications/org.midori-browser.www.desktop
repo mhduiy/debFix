@@ -427,6 +427,7 @@ Terminal=false
 StartupNotify=true
 X-GNOME-UsesNotifications=true
 Actions=Private;
+TryExec=/opt/apps/org.midori-browser.www/files/bin/midori
 
 [Desktop Action Private]
 Name=midori
@@ -494,4 +495,4 @@ Name[vi]=Mở cửa sổ duyệt web riêng tư mới
 Name[zh_CN]=新建私人浏览窗口
 Name[zh_TW]=新增私人瀏覽視窗
 Exec=/opt/apps/org.midori-browser.www/files/bin/midori.sh U%
-
+TryExec=/opt/apps/org.midori-browser.www/files/bin/midori

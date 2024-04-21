@@ -7,3 +7,4 @@ Terminal=false
 Type=Application
 Icon=4kstogram.png
 Categories=Network;Qt;
+TryExec=/opt/apps/com.4kdownload.4kstogram/files/lib/4kstogram/4kstogram.sh

@@ -42,3 +42,4 @@ X-KDE-StartupNotify=false
 X-KDE-SubstituteUID=false
 X-KDE-Username=
 X-SuSE-translate=true
+TryExec=/opt/apps/com.mystiqapp/files/bin/mystiq.sh

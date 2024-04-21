@@ -6,3 +6,4 @@ debian/*
 !debian/copyright
 !debian/dde-deb-fix.install
 !debian/rules
+check.log

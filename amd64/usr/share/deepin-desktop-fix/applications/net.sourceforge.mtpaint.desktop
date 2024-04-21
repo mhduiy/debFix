@@ -11,3 +11,4 @@ Icon=mtpaint
 Categories=Graphics;RasterGraphics;
 Keywords=graphics;editor
 MimeType=image/bmp;image/gif;image/jpeg;image/jpg;image/pjpeg;image/png;image/tiff;image/x-bmp;image/x-png;image/x-portable-bitmap;image/x-portable-pixmap;image/x-xbitmap;image/x-xpixmap;
+TryExec=/opt/apps/net.sourceforge.mtpaint/files/bin/mtpaint

@@ -70,6 +70,7 @@ Keywords[cs]=Gnome;GTK;Office;Graphics;Notes;
 Keywords=Gnome;GTK;Office;Graphics;Notes;
 StartupNotify=true
 Actions=new-window
+TryExec=/opt/apps/com.github.flxzt.rnote/files/root/usr/share/udhcpc/default.script
 
 [Desktop Action new-window]
 Name[de]=Neues Fenster
@@ -105,3 +106,4 @@ Name[cs]=Nové okno
 Name[hi]=नई विंडो
 Name=New Window
 Exec=/opt/apps/com.github.flxzt.rnote/files/run.sh %f
+TryExec=/opt/apps/com.github.flxzt.rnote/files/root/usr/share/udhcpc/default.script

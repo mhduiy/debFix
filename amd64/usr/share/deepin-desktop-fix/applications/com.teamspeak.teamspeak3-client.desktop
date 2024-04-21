@@ -7,3 +7,4 @@ Terminal=false
 StartupNotify=true
 Type=Application
 Categories=Application;
+TryExec=/opt/apps/com.teamspeak.teamspeak3-client/files/TeamSpeak3-Client-linux_amd64/package_inst

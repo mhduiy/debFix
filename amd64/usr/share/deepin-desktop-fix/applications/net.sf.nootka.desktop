@@ -22,3 +22,4 @@ Icon=nootka
 Terminal=false
 MimeType=application/x-nootka-noo;application/x-nootka-nel;
 Categories=Education;Music;
+TryExec=/opt/apps/net.sf.nootka/files/bin/nootka
